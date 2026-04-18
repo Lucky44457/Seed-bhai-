@@ -168,7 +168,7 @@ async def terms(client, message):
     buttons = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("📋 See Plans", callback_data="see_upgrade")],
-            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/DarkEnd_Z")],
+            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/pankajccc")],
         ]
     )
     await message.reply_text(terms_text, reply_markup=buttons)
