@@ -75,7 +75,7 @@ async def token_handler(client, message):
 
         # ✅ Buttons
         join_button = InlineKeyboardButton("📢 Join Channel", url="https://t.me/seedbhaiking")
-        premium = InlineKeyboardButton("💎 Get Premium", url="https://t.me/Whynotme33")
+        premium = InlineKeyboardButton("💎 Get Premium", url="https://t.me/pankajccc")
         help_button = InlineKeyboardButton("❓ Help", callback_data="help")
 
         keyboard = InlineKeyboardMarkup([
