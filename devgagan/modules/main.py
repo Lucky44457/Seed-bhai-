@@ -227,11 +227,11 @@ async def batch_link(_, message):
         await message.reply(response_message)
         return
         
-    join_button = InlineKeyboardButton("Join Channel", url="https://t.me/+DhhAmyvXj0ExZjk1")
+    join_button = InlineKeyboardButton("Join Channel", url="https://t.me/+FHYoP0J1hqE3M2Y1")
     keyboard = InlineKeyboardMarkup([[join_button]])
     pin_msg = await app.send_message(
         user_id,
-        f"Batch process started ⚡\nProcessing: 0/{cl}\n\n**Powered by Blue Power**",
+        f"Batch process started ⚡\nProcessing: 0/{cl}\n\n**Powered by Open Source X**",
         reply_markup=keyboard
     )
     await pin_msg.pin(both_sides=True)
